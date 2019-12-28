@@ -18,6 +18,7 @@ class AgeCalculatorTest {
     void calculateAgeFromBirthYearTest2() {
 
         assertEquals(0, calculateAgeFromBirthYear(1000));
+        assertEquals(0, calculateAgeFromBirthYear(1900));
 
     }
 }

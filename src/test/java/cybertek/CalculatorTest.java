@@ -1,5 +1,6 @@
 package cybertek;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static cybertek.Calculator.*;
@@ -29,7 +30,7 @@ class CalculatorTest {
     }
 
     @Test
-    //@Disabled
+    @Disabled
     void divideTest2() {
         assertThrows(ArithmeticException.class,
                 () -> divide(12, 0));
