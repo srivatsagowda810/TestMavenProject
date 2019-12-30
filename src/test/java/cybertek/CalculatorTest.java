@@ -31,7 +31,7 @@ class CalculatorTest {
     
     @Test
     void divideTest1() {
-        assertThrows(ArithmeticException.class, () -> 12/0 );
+        assertThrows(ArithmeticException.class, () -> System.out.println(12 / 0));
     }
 
     @Test
