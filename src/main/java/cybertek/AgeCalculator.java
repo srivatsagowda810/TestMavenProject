@@ -1,7 +1,7 @@
 package cybertek;
 
 /**
- * @author : akbar
+ * @author : Akbar
  * Created At : 12/26/19
  */
 public class AgeCalculator {
@@ -18,9 +18,7 @@ public class AgeCalculator {
      */
     public static int calculateAgeFromBirthYear(int birthYear) {
         // I want to take out negative scenario first and just return 0
-        if (birthYear <= 1900 || birthYear >= 2020) {
-            return 0;
-        }
+        if (birthYear <= 1900 || birthYear >= 2020)  return 0;
         // If I reach this point , it means the birth year is valid
         return 2019 - birthYear;
 
