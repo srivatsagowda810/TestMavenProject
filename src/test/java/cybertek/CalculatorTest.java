@@ -28,6 +28,11 @@ class CalculatorTest {
     void divideTest() {
         assertEquals(2, divide(10, 5));
     }
+    
+    @Test
+    void divideTest1() {
+        assertThrows(ArithmeticException.class, () -> 12/0 );
+    }
 
     @Test
     @Disabled
