@@ -5,3 +5,5 @@ jdk:
 cache:
   directories:
   - "$HOME/.m2"
+notifications:
+  slack: cybertek-all:XEOEjjWsK7WS5Vr1ViUMvLXE  
