@@ -1,7 +1,9 @@
 ![Cybertek White Logo](https://cybertekschool.com/assets/img/cybertek_logo_dark.svg "Cybertek")
 
 
-# Test Maven Project with 3 CI Servers [![Build Status](https://travis-ci.com/Akbar300/TestMavenProject.svg?token=QMgM2JkxHxWqrxou4NfM&branch=master)](https://travis-ci.com/Akbar300/TestMavenProject) [![CircleCI](https://circleci.com/gh/CybertekSchool-Official/TestMavenProject.svg?style=svg&circle-token=21f2a0d38108e5bfece5a1119da0ccf996d6fe5b)](https://circleci.com/gh/CybertekSchool-Official/TestMavenProject)
+# Test Maven Project with 3 CI Servers 
+![GitHub Status](https://github.com/CybertekSchool-Official/TestMavenProject/workflows/Java%20CI/badge.svg)
+[![Build Status](https://travis-ci.com/Akbar300/TestMavenProject.svg?token=QMgM2JkxHxWqrxou4NfM&branch=master)](https://travis-ci.com/Akbar300/TestMavenProject) [![CircleCI](https://circleci.com/gh/CybertekSchool-Official/TestMavenProject.svg?style=svg&circle-token=21f2a0d38108e5bfece5a1119da0ccf996d6fe5b)](https://circleci.com/gh/CybertekSchool-Official/TestMavenProject)
 
 A Simple Maven Test Project to demonstrated Continues Integration with 
 * GitHub Action
