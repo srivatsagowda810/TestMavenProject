@@ -1,7 +1,7 @@
 ![Cybertek White Logo](https://cybertekschool.com/assets/img/cybertek_logo_dark.svg "Cybertek")
 
 
-# Test Maven Project with 3 CI Server
+# Test Maven Project with 3 CI Servers
 [![Build Status](https://travis-ci.com/Akbar300/TestMavenProject.svg?token=QMgM2JkxHxWqrxou4NfM&branch=master)](https://travis-ci.com/Akbar300/TestMavenProject)
 
 A Simple Maven Test Project to demonstrated Continues Integration with 
