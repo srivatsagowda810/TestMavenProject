@@ -15,6 +15,13 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: GitHub Action for Slack
-      uses: Ilshidur/action-slack@1.6.2
+    - name: Slack notification
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_USERNAME: Akbar # Optional.
+        SLACK_CHANNEL: general # Optional.
+        SLACK_OVERRIDE_MESSAGE: 'Everything is Awesome!' # Optional.
+      uses: Ilshidur/action-slack@master
+      with:
+        args: 'A new commit has been pushed.'
 
