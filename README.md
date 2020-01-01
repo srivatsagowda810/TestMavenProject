@@ -5,7 +5,7 @@
 [![GitHub Status](https://github.com/CybertekSchool-Official/TestMavenProject/workflows/Java%20CI/badge.svg)](https://github.com/CybertekSchool-Official/TestMavenProject/actions?query=workflow%3A%22Java+CI%22)
 [![Build Status](https://travis-ci.com/CybertekSchool-Official/TestMavenProject.svg?token=QMgM2JkxHxWqrxou4NfM&branch=master)](https://travis-ci.com/CybertekSchool-Official/TestMavenProject) [![CircleCI](https://circleci.com/gh/CybertekSchool-Official/TestMavenProject.svg?style=svg&circle-token=21f2a0d38108e5bfece5a1119da0ccf996d6fe5b)](https://circleci.com/gh/CybertekSchool-Official/TestMavenProject)
 
-A Simple Maven Test Project to demonstrated continous Integration with 
+A Simple Maven Test Project to demonstrate Continuous Integration with :
 * GitHub Action
 * Travis CI 
 * Circle CI
