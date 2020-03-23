@@ -1,4 +1,4 @@
-![Cybertek White Logo](https://cybertekschool.com/assets/img/cybertek_logo_dark.svg "Cybertek")
+![Cybertek White Logo](https://cybertekschool.com/wp-content/uploads/2019/05/cybertek_logo_dark.svg "Cybertek")
 
 
 # Test Maven Project with 3 CI Servers 
