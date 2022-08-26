@@ -5,7 +5,7 @@ pipeline {
 		steps {
 		  echo 'build babayaga'
 		  withMaven(maven: 'maven3') {
-    sh 'mvn clean install'
+    powershell 'mvn clean install'
 }
 		}
 	  }
