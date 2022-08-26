@@ -1,0 +1,27 @@
+pipeline {
+	agent any 
+	stages {
+	  stage('build') {
+		steps {
+		  echo 'build babayaga'
+		  withMaven(globalMavenSettingsConfig: 'null', jdk: 'null', maven: 'maven3', mavenSettingsConfig: 'null') {
+    sh 'mvn clean install'
+}
+		}
+	  }
+
+	  stage('test') {
+		steps {
+		  echo 'babayaga test'
+		}
+	  }
+
+	  stage('release') {
+		steps {
+		  echo 'relaese'
+		}
+	  }
+
+}
+
+}
